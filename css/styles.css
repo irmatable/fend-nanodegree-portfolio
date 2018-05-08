@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.my-role .logo {
+    padding: 5%;
+}
+
+.name {
+    font-size: 100px;
+    color: #2d3c49;
+}
+
+.specs {
+    font-size: 20px;
+    color: #2d3c49;
+}
+
+.h-rule {
+    color: #7d97ad;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 0 2px 0;
+    border: 0;
+    border-top: 5px solid #7d97ad;
+}
+
+.my-role img {
+    height: 5   0px;
+    width: 50px;    
+    display: block;
+}
+
+.image-display h2 {
+    color: #7d97ad;
+    padding-top: 5%;
+}
+
+.image-row figure {
+    display: inline-block;
+    height: auto;
+    margin: 0 2% 0 2%;
+    vertical-align: top;
+}
+
+.image-row figure img {
+    vertical-align: top;
+}
+
+.image-row figcaption{
+    text-align: center;
+}
+
+#project {
+    margin-left: 3%;
+    padding-right: 4%;
+}
+
+.banner img {
+    width: 100%;
+    height: 70vh;
+    margin: 2% 0 2% 0;
+}
+
+@media screen and (max-width: 766px) {
+    .image-display h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.project-name {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.project-link {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.image-display {
+    padding-bottom: 10%;
+}
+
+a {
+    text-transform: lowercase;
+}
